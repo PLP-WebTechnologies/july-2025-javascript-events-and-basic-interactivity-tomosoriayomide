@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Mood Journal</h1>
+    <form id="mood-form">
+        <label for="mood">Mood:</label>
+        <select id="mood" name="mood">
+            <option value="">Select a mood</option>
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="neutral">Neutral</option>
+        </select>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+        <button id="submit-btn">Submit</button>
+    </form>
+    <div id="mood-log">
+        <h2>Mood Log:</h2>
+        <ul id="mood-list"></ul>
+    </div>
+    <button id="clear-btn">Clear Log</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
