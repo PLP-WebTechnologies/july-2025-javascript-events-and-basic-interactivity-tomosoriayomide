@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cont">
+
     <h1>Mood Journal</h1>
     <form id="mood-form">
         <label for="mood">Mood:</label>
         <select id="mood" name="mood">
             <option value="">Select a mood</option>
-            <option value="happy">Happy</option>
-            <option value="sad">Sad</option>
-            <option value="neutral">Neutral</option>
+            <option value="happy 😊">Happy 😊</option>
+            <option value="sad 😢">Sad 😢</option>
+            <option value="neutral 😐">Neutral 😐</option>
+            <option value="depressed 😞">Depressed 😞</option>
+            <option value="heartbroken 💔">Heartbroken 💔</option>
         </select>
         <label for="description">Description:</label>
         <textarea id="description" name="description"></textarea>
@@ -25,6 +29,7 @@
         <ul id="mood-list"></ul>
     </div>
     <button id="clear-btn">Clear Log</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
